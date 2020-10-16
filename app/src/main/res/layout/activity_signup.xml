@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".SignupActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:gravity="end"
+            android:textColor="@color/colorHeader1"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Your \n Account"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/image"
+            android:layout_marginTop="25dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_face"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="Your name"
+            android:layout_marginTop="35dp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/border"
+            android:inputType="textPersonName"
+            android:elevation="5dp"/>
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="Email"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/border"
+            android:inputType="textEmailAddress"
+            android:elevation="5dp"
+            />
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:hint="Password"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/border"
+            android:inputType="textPassword"
+            android:elevation="5dp"
+            />
+
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:id="@+id/joinus"
+            android:text="Join Us"
+            android:textColor="#FAFAFA"
+            android:background="@drawable/button"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"
+            android:elevation="5dp"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="By Pressing 'Join us' You agree \n  to our trems and conditions "
+            android:textColor="@color/colorSubTitle"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:text="Lê Thị Kim Thoa_1811505310342"
+            android:textColor="@color/colorTitle"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>
